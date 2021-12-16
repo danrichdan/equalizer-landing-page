@@ -1,33 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Equalizer landing page</title>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Equalizer landing page</title>
+  </head>
+  <body>
+    <!-- Header and Showcase Section -->
+    <section id="header-showcase">
+      <div class="bg-phone"></div>
+      <div class="container">
+        <header class="main-header">
+          <img src="assets/logo.svg" alt="Equalizer Logo" />
+        </header>
+        <div class="showcase">
+          <h1 class="main-heading">We make your music sound extraordinary.</h1>
+          <p class="normal-text">
+            A system audio equalizer specifically designed for Android and iOS.
+            Freely tune the way your music sounds with a professional grade
+            parametric EQ & volume mixer. Control bass, mids, treble, gain
+            control, reverb, and more!
+          </p>
+        </div>
+      </div>
+    </section>
 
-  We make your music sound extraordinary.
+    <!-- CTA Section with Card and images -->
+    <section id="cta">
+      <img
+        class="phone-img"
+        src="assets/illustration-app.png"
+        alt="Phone with Equalizer App displayed"
+      />
+      <div class="demo-bg">
+        <img src="./assets/bg-pattern-2.svg" alt="" />
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <h2 class="secondary-heading">Premium EQ</h2>
+          <p>
+            Get expert-level control with a robust equalizer, volume mixer, and
+            spatial audio. Take your listening experience to a whole new level
+            and access all our incredible features!
+          </p>
+          <h3 class="price">$4 <span class="frequency">/ month</span></h3>
+          <a href="#" class="btn"
+            ><img src="./assets/icon-apple.svg" alt="Apple Icon" /> iOS
+            Download</a
+          >
+          <a href="#" class="btn btn-light"
+            ><img src="./assets/icon-android.svg" alt="Android Icon" /> Android
+            Download</a
+          >
+        </div>
+      </div>
+    </section>
 
-  A system audio equalizer specifically designed for Android and iOS. Freely tune the 
-  way your music sounds with a professional grade parametric EQ & volume mixer. Control 
-  bass, mids, treble, gain control, reverb, and more!
-
-  Premium EQ
-
-  Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take 
-  your listening experience to a whole new level and access all our incredible features!
-
-  $4 / month
-
-  iOS Download
-  Android Download
-
-  All rights reserved © Equalizer 2021
-  Have any problems? Contact us via social media or email us at equalizer@example.com
-
-</body>
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="container">
+        <img class="logo" src="assets/logo.svg" alt="Equalizer Logo" />
+        <div class="footer-content">
+          <div class="copyright-contact">
+            <p class="normal-text">All rights reserved © Equalizer 2021</p>
+            <p class="normal-text">
+              Have any problems? Contact us via social media or email us at
+              <strong>equalizer@example.com</strong>
+            </p>
+          </div>
+          <div class="social-links">
+            <a href="#"
+              ><img src="./assets/icon-facebook.svg" alt="Facebook Icon"
+            /></a>
+            <a href="#"
+              ><img src="./assets/icon-instagram.svg" alt="Instagram Icon"
+            /></a>
+            <a href="#"
+              ><img src="./assets/icon-twitter.svg" alt="Twitter Icon"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

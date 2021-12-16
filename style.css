@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap");
+
+/* Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  --black: #191826;
+  --white: #fcfaf9;
+  --cyan: #66e2dc;
+  --coral: #fa7453;
+  --orange: #ffb964;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: var(--black);
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+/* Utilities */
+.container {
+  width: 85%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.main-heading {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.secondary-heading {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.btn {
+  background: var(--black);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.btn-light {
+  background: var(--white);
+  color: var(--black);
+}
+
+.btn:first-of-type {
+  margin-bottom: 15px;
+}
+
+/* Header / Showcase*/
+header {
+  padding: 50px 0;
+}
+
+#header-showcase {
+  padding-bottom: 75px;
+}
+
+.bg-phone {
+  position: absolute;
+  right: 0;
+  top: -25%;
+  width: 350px;
+  height: 650px;
+  background: url("./assets/bg-main-mobile.png") no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.normal-text {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+/* CTA Section */
+#cta {
+  position: relative;
+  margin-top: 50px;
+}
+
+.phone-img {
+  width: 56%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  bottom: 50px;
+}
+
+.demo-bg {
+  background: var(--black);
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  position: absolute;
+  width: 100%;
+  padding: 0 50px 50px;
+  z-index: -1;
+  top: 6%;
+  left: 0;
+}
+
+.card {
+  width: 100%;
+  max-width: 446px;
+  background: var(--coral);
+  color: var(--white);
+  border-radius: 10px;
+  padding: 45px 0;
+}
+
+.card-content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card p {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.card .price {
+  font-size: 65px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.card .frequency {
+  font-weight: 300;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+/* Footer */
+.main-footer {
+  padding: 65px 0;
+}
+
+.main-footer .logo {
+  margin-bottom: 30px;
+}
+
+.copyright-contact {
+  margin-bottom: 70px;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
