@@ -15,14 +15,16 @@ This is a solution to the [Equalizer landing page challenge on Frontend Mentor](
 - [Author](#author)
 
 ## Overview
+
 Front end mentor challenge, that I attempted to improve my CSS
+
 ### The challenge
 
 Build the page layout per Mockup
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
