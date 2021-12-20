@@ -191,12 +191,8 @@ header {
   align-items: center;
 }
 
-.social-links a:link img {
-  color: var(--black);
-}
-
-.social-links a:hover img {
-  color: var(--orange);
+.social-links a:hover path {
+  fill: #ffb964;
 }
 
 /* Media Queries */
